@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(223, 82, 110);
+    color: rgb(255, 255, 255)
+}
+
+.container {
+    text-align: center;
+    padding: 100px 0px;
+    display: flex;
+    height: 500px;
+}
+
+p {}
+
+h2 {
+    text-align: center;
+}
+
+.carta {
+    padding: 15px;
+    color: black;
+}
+
+.carta:first-child {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/usupru.jpg);
+    
+
+}
+
+.carta:nth-child(2) {
+    background-image: url(img/admonpru.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.carta:nth-child(3) {
+    
+    background-image: url(img/popru.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carta:nth-child(4) {
+    background-image: url(img/prubani.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fondoadm{
+    background-color: blueviolet;
+    color:black;
+}
+
+.fondousu{
+    background-color: rgb(0, 174, 255);
+    color:black;
+}
+
+.fondozoo{
+    background-color: rgb(132, 239, 132);
+    color:black;
+}
+
+.fondoesp{
+    background-color: rgb(156, 154, 154);
+    color:black;
+}
+.titulo{
+    color:black;
+}
